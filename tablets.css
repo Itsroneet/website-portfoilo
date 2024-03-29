@@ -1,0 +1,101 @@
+nav {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#logo {
+    height: 3.5rem;
+}
+
+#hero {
+    display: flex;
+    height: 342px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+#hero h1 {
+    font-size: 2rem;
+}
+
+#hero h4 {
+    font-size: 1rem;
+}
+
+#hero p {
+    font-size: 1rem;
+    font-family: cursive;
+    cursor: default;
+    width: 90%;
+    text-align: center;
+}
+
+#skills {
+    margin: 20px;
+    flex-direction: row;
+}
+
+
+.card img {
+    display: block;
+    height: 100px;
+    margin: 0 100px;
+}
+
+.card {
+    padding: 15px 00px;
+    margin: 10px 20px
+}
+
+.rcard {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+
+#contactus {
+    flex-direction: column;
+    height: 540px;
+}
+
+#contact1 img {
+    width: 150px;
+    display: none;
+}
+
+#sicon img {
+    width: 30px;
+}
+
+
+#contact2 {
+    width: 60%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#contact2 textarea {
+    width: 80%;
+
+}
+
+#projects {
+    font-size: 2rem;
+    height: 300px;
+    font-family: "Lora", serif;
+}
+
+
+#projects::before {
+    height: 300px;
+
+}
+
