@@ -1,0 +1,246 @@
+ /* Tablets css */
+
+
+nav {
+    width: 80%;
+}
+
+#logo {
+    height: 3.5rem;
+}
+
+#hero {
+    display: flex;
+    height: 342px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+#hero h1 {
+    font-size: 2rem;
+}
+
+#hero h4 {
+    font-size: 1rem;
+}
+
+#hero p {
+    font-size: 1rem;
+    cursor: default;
+    width: 90%;
+    text-align: center;
+}
+
+#skills {
+    margin: 20px;
+    flex-direction: row;
+}
+
+
+.card img {
+    display: block;
+    height: 100px;
+    margin: 0 100px;
+}
+
+.card {
+    padding: 15px 00px;
+    margin: 10px 20px
+}
+
+.rcard {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+
+#contactus {
+    flex-direction: row;
+    height: 540px;
+}
+
+#contact1 img {
+    width: 400px;
+}
+
+#sicon img {
+    width: 30px;
+}
+
+
+#contact2 {
+    width: 60%;
+    max-width: 600px;
+    margin: 20px 15px;
+}
+
+#contact2 textarea {
+    width: 80%;
+
+}
+
+#projects {
+    font-size: 2rem;
+    height: 300px;
+    font-family: "Lora", serif;
+}
+
+
+#projects::before {
+    height: 300px;
+
+}
+
+
+
+
+/* mobile css */
+
+@media (max-width: 720px) {
+   
+    nav {
+        width: 100%;
+        height: 5.5rem;
+        border-radius: 0;
+        border-left: 0;
+        margin-bottom: 40px;
+        flex-direction: column;
+        margin-top: 0;
+        border-bottom-right-radius: 3rem ;
+        border-bottom-left-radius: 3rem ;
+    }
+    
+    
+    
+    #logo {
+        height: 3rem;
+        margin: auto;
+    
+    }
+    
+    
+    nav ul {
+        align-self: center;
+        width: 100%;
+        text-align: center;
+        margin: 0%;
+        margin-top: 4px;
+    
+    }
+    
+    
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        margin: 0 0.4em;
+        font-size: 1rem;
+        transition: all 0.2s ease-in;
+        font-family: "Playfair Display", serif;
+        font-weight: 450;
+    
+    }
+    
+    
+    nav ul li a:hover {
+        padding: 0;
+    }
+    
+    
+    #hero {
+        display: flex;
+        height: 550px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    
+    #hero h1 {
+        font-size: 1.7rem;
+        text-align: center;
+        width: 100%;
+    }
+    
+    #hero h4 {
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+    
+    #hero p {
+        font-size: 0.9rem;
+        cursor: default;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #hero2 img {
+        width: 145px;
+    }
+    
+    #skills {
+        margin: 20px;
+        flex-direction: column;
+    }
+    
+    
+    .card img {
+        display: block;
+        height: 100px;
+        margin: 0 auto;
+    }
+    
+    .card {
+        padding: 15px 00px;
+        margin: 10px 20px
+    }
+    
+    .rcard {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #contact2 {
+        width: 85%;
+        max-width: 600px;
+        margin: 20px auto;
+    }
+    
+    #contactus {
+        flex-direction: column;
+        height: 550px;
+    }
+    
+    #contact1 img {
+        width: 150px;
+        display: none;
+    }
+    
+    #sicon img {
+        width: 30px;
+    }
+    
+    
+    #projects {
+        font-size: 1.1rem;
+        height: 200px;
+        font-family: "Lora", serif;
+    }
+    
+    
+    #projects::before {
+        height: 200px;
+    
+    }
+    
+    
+    footer{
+        font-size: 0.8rem;
+    }
+    
+  }
