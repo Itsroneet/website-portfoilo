@@ -157,8 +157,7 @@ nav ul li a:hover {
     font-family: cursive;
     cursor: default;
     width: 80%;
-    font-family: "Lora", serif;
-
+    font-family: "Playfair Display", serif;
 }
 
 #skills {
@@ -202,13 +201,6 @@ nav ul li a:hover {
     font-size: 2em;
     font-family: "Lora", serif;
 }
-
-.card p {
-    text-align: center;
-    font-size: 1.1em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 
 #contactus {
     display: flex;
