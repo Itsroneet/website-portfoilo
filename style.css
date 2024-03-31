@@ -69,7 +69,6 @@ nav {
     height: 4rem;
     margin: 20px auto;
     position: fixed;
-    box-shadow: 0px 1px 16px 6px;
     z-index: 10;
 }
 
