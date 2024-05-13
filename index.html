@@ -4,111 +4,221 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A passionate beginner web developer eager to make my mark in the digital world. With a love for coding and a keen eye for design, I strive to create engaging and user-friendly websites that leave a lasting impression.">
-    <meta name="keywords" content="web developer, HTML, CSS, JavaScript, Bootstrap">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 1050px)" href="responsive.css">
     <title>Ronit Bhandari | Web Developer</title>
-    <script src="script.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Loading screen -->
-    <div class="loading-screen">
-        <div class="loader"></div>
-    </div>
 
-    <div id="nav">
-        <nav>
-            <a href="index.html"><img id="logo" src="img/logo 1.png "></a>
-            <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#skill-section">Skills</a></li>
-                <li><a href="#projects-section">Projects</a></li>
-                <li><a href="#contactus">Contact </a></li>
-            </ul>
+    <!-- Header Section -->
+
+    <header class="header">
+        <a href="#home" class="logo">Ronit
+            <span>Bhandari</span>
+        </a>
+        
+        <i class='bx bx-menu' id="menu-icon">Menu</i>
+
+        <nav class="navbar">
+            <a href="#home"  class="active">Home</a>
+            <a href="#skills-sec" class="">skills</a>
+            <a href="#services" class="">Services</a>
+            <!-- <a href="#testimonials" class="">Testimonials</a> -->
+            <a href="#contact" class="">Contact</a>
         </nav>
-    </div>
+    </header>
 
-    <!-- home section -->
-    <div id="hero">
-        <div id="hero1">
-            <h4>Hi👋, I’m </h4>
-            <h1>Ronit Bhandari</h1>
+    <!-- Home Section -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Ronit</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
             <p>A passionate beginner web developer eager to make my mark in the digital world. With a love for coding and a keen eye for design, I strive to create engaging and user-friendly websites that leave a lasting impression.</p>
+
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/itsme_roneet"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.facebook.com/itsmeroneet/"><i class='bx bxl-facebook-square'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="/error"  class="btn">Download CV</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
         </div>
-        <div id="hero2">
-            <img src="img/profile.jpg" alt="Ronit Bhandari">
+        <div class="home-img">
+            <img src="img/profile.jpg" alt="Profile">
         </div>
+    </section>
+
+    <!-- skills section -->
+
+    <section id="skills-sec">
+
+    <h2 class="heading">Skills</h2>
+    <div id="skills">
+
+        <div class="rcard">
+            <div class="card">
+                <img src="img/HTML.png" alt="">
+                <h3>HTML</h3>
+            </div>
+            <div class="card">
+                <img src="img/CSS.png" alt="">
+                <h3>CSS</h3>
+            </div>
+        </div>
+
+        <div class="rcard">
+            <div class="card">
+                <img src="img/js.jpg" alt="">
+                <h3>Java Script</h3>
+            </div>
+            <div class="card">
+                <img src="img/Bootstrap.png" alt="">
+                <h3>Bootstrap</h3>
+            </div>
+        </div>
+
+
     </div>
+    </section>
 
-    <!-- Skills section -->
-    <hr id="skill-section">
-    <section>
-        <h1>My skills</h1>
-        <div id="skills">
-            <div class="rcard">
-                <div class="card">
-                    <img src="img/HTML.png" alt="HTML">
-                    <h3>HTML</h3>
-                </div>
-                <div class="card">
-                    <img src="img/CSS.png" alt="CSS">
-                    <h3>CSS</h3>
+
+    <!-- Services Section -->
+
+    <section id="services" class="services">
+        <h2 class="heading">Services</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>UI Design</h4>
+                    <p>My specific field of expertise is designing smooth, efficient user interfaces that balance beauty and usefulness. My work involves creating digital experiences that captivate and excite people on several platforms, with a focus on intuitive design concepts.
+               </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Frontend Development</h4>
+                    <p>With a focus on frontend development, I create user-centered, responsive interfaces by integrating creativity and technological know-how. Skilled in HTML, CSS, and JavaScript, I design websites with an emphasis on cross-platform compatibility, performance, and aesthetics.
+                    </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Wordpress Development</h4>
+                    <p>With my expertise in WordPress development, I make unique websites and themes that meet the demands of my clients. With my proficiency in HTML, CSS, and JavaScript, I create scalable, user-friendly solutions that enable clients to easily manage their content.
+                    </p>
                 </div>
             </div>
-            <div class="rcard">
-                <div class="card">
-                    <img src="img/js.jpg" alt="JavaScript">
-                    <h3>JavaScript</h3>
-                </div>
-                <div class="card">
-                    <img src="img/Bootstrap.png" alt="Bootstrap">
-                    <h3>Bootstrap</h3>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Graphics Designer</h4>
+                    <p>I use my creativity as a graphics designer to bring concepts to life. I create eye-catching designs that attract viewers, from logos to illustrations. With expertise in Adobe Creative Suite, my area of expertise lies in producing powerful images that enhance brands and narrate captivating tales.
+                </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <hr id="projects-section">
-    <section>
-        <h1>Projects</h1>
-        <div id="projects">
-            <h2>Projects are on the way !!</h2>
+    <!-- Testimonials Section -->
+
+    <!-- <section id="testimonials" class="testimonials">
+        <div class="testimonials-box">
+            <h2 class="heading">Testimonials</h2>
+
+            <div class="wrapper">
+                <div class="testimonial-item">
+                    <img src="assets/Image3.jpeg" alt="">
+                    <h2>Mark</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius reiciendis consequatur officia
+                        recusandae porro at?</p>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="assets/Image2.jpeg" alt="">
+                    <h2>Steve</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius reiciendis consequatur officia
+                        recusandae porro at?</p>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="assets/Image4.jpeg" alt="">
+                    <h2>Devid</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius reiciendis consequatur officia
+                        recusandae porro at?</p>
+                </div>
+            </div>
         </div>
+    </section> -->
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="2ea871d9-617f-4ec0-aa4d-eb7fa9409f71" />
+            <input type="hidden" name="redirect" value="https://ronitbhandari.com.np/Success">
+
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="FUll Name" placeholder="Full Name" required >
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="number" name="Number" placeholder="Phone Number" >
+                    <input type="text" name="Subject" placeholder="Subject" required>
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
     </section>
 
-    <section>
-        <div id="contactus">
-            <div id="contact1" class="contact">
-                <img id="cimg" src="img/contact img.gif" alt="Contact Image">
-            </div>
-            <div id="contact2" class="contact">
-                <h4>Contact US</h4>
-                <form action="contact.html">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                    <input type="tel" placeholder="Number">
-                    <textarea name="Feedback" id="tbox" cols="30" rows="5" placeholder="Message"></textarea>
-                    <button type="submit" class="btn">Submit</button>
-                </form>
-            </div>
+    <!-- Footer Section -->
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/itsme_roneet" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.facebook.com/itsmeroneet/" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+
         </div>
-    </section>
 
-    <div id="sicon">
-        <h2>Follow me on:</h2>
-        <a href="https://www.facebook.com/itsmeroneet/" target="_blank"><img src="img/facebook.png" alt="Facebook"></a>
-        <a href="https://www.instagram.com/itsme_roneet" target="_blank"><img src="img/Instagram.png" alt="Instagram"></a>
-    </div>
-
-    <footer>
-        &copy; Ronit Bhandari | All Rights Reserved
+        <p class="copyright">
+            © Ronit Bhandari | All Rights Reserved  </p>
     </footer>
+
+    <script src="assets/script.js"></script>
 </body>
 
 </html>
