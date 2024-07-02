@@ -4,10 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <title>Ronit Bhandari | Web Developer</title>
+
+        <meta name="description" content="Welcome to the official site of Ronit Bhandari and Roneet Bhandari. Discover more about their work, achievements, and latest updates.">
+        <meta name="keywords" content="Ronit Bhandari, Roneet Bhandari, official site, achievements, updates, work">
+        <meta name="author" content="Ronit Bhandari, Roneet Bhandari">
+    
+        <!-- Open Graph Meta Tags (for social media sharing) -->
+        <meta property="og:title" content="Ronit Bhandari | Roneet Bhandari - Official Site | Web Developer">
+        <meta property="og:description" content="Welcome to the official site of Ronit Bhandari and Roneet Bhandari. Discover more about their work, achievements, and latest updates.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://ronitbhandari.com.np/">
+        <meta property="og:image" content="https://ronitbhandari.com.np/img/profile.jpg">
+    
+       
+            <link rel="stylesheet" href="assets/style.css">
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+            <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+            <title>Ronit Bhandari | Web Developer</title>
+            
+        
 </head>
 
 <body>
@@ -46,7 +61,7 @@
             </div>
 
             <div class="btn-group">
-                <a href="/error"  class="btn">Download CV</a>
+                <button  class="cv-btn btn">Download CV</button>
                 <a href="#contact" class="btn">Contact</a>
             </div>
         </div>
@@ -60,7 +75,7 @@
     <section id="skills-sec">
 
     <h2 class="heading">Skills</h2>
-    <div id="skills">
+    <div  id="skills">
 
         <div class="rcard">
             <div class="card">
@@ -91,7 +106,7 @@
 
     <!-- Services Section -->
 
-    <section id="services" class="services">
+    <section  id="services" class="services">
         <h2 class="heading">Services</h2>
         <div class="services-container">
             <div class="service-box">
@@ -182,45 +197,25 @@
         <form action="https://api.web3forms.com/submit" method="POST">
 
             <input type="hidden" name="access_key" value="2ea871d9-617f-4ec0-aa4d-eb7fa9409f71" />
-            <input type="hidden" name="redirect" value="https://ronitbhandari.com.np/success">
+            <input type="hidden" name="redirect" value="https://ronitbhandari.com.np/Success">
 
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" name="Full Name"  id="name" placeholder="Full Name" required >
-                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" class="form-text" id="name" placeholder="Full Name" required >
+                    <input type="email" class="form-text" name="email" placeholder="Email" required>
                 </div>
-
                 <div class="input-box">
-                    <input type="number" name="Number" placeholder="Phone Number" >
-                    <input type="text" name="Subject" placeholder="Subject" required>
+                    <input type="tel" name="Number" placeholder="Phone Number" >
+                    <input type="text" class="form-text" name="Subject" placeholder="Subject" required>
                 </div>
             </div>
 
             <div class="input-group-2">
-                <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
-                <input type="submit" value="Send Message" class="btn">
+                <textarea name="Message" class="form-text" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <button type="submit" value="" class="btn submit-btn">Send Message</button>
             </div>
         </form>
     </section>
-
-
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/666412bf9a809f19fb3b4d8c/1hvreiff6';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-    
-
-    
 
     <!-- Footer Section -->
 
@@ -236,7 +231,7 @@ s0.parentNode.insertBefore(s1,s0);
         <p class="copyright">
             © Ronit Bhandari | All Rights Reserved  </p>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="assets/script.js"></script>
 </body>
 

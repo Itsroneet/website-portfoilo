@@ -33,3 +33,23 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 };
 
+let cv = document.querySelector('.cv-btn')
+let audio = new Audio('assets/warning.mp3');
+cv.onclick = () => {
+    Swal.fire({
+        position: "center",
+        icon: "warning",
+        title: "OPPS !! ",
+        text:"Something Wents Wrong",
+        showConfirmButton: false,
+        timer: 1300,
+        customClass:"swal-popup",
+      });
+
+      audio.play();
+
+}
+
+// let submitbtn = document.querySelector('.submit-btn')
+// let formtext = document.querySelector('.form-text')
+
