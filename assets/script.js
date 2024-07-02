@@ -50,6 +50,3 @@ cv.onclick = () => {
 
 }
 
-// let submitbtn = document.querySelector('.submit-btn')
-// let formtext = document.querySelector('.form-text')
-
